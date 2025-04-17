@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/open-dingtalk/dingtalk-stream-sdk-go/payload"
+	"github.com/ericnts/dingtalk-stream-sdk-go/payload"
 )
 
 /**

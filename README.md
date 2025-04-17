@@ -1,9 +1,9 @@
 <p align="left">
-  <a target="_blank" href="https://github.com/open-dingtalk/dingtalk-stream-sdk-go">
+  <a target="_blank" href="https://github.com/ericnts/dingtalk-stream-sdk-go">
     <img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/open-dingtalk/dingtalk-stream-sdk-go">
   </a>
 
-  <a target="_blank" href="https://github.com/open-dingtalk/dingtalk-stream-sdk-go/releases">
+  <a target="_blank" href="https://github.com/ericnts/dingtalk-stream-sdk-go/releases">
     <img alt="GitHub Release" src="https://img.shields.io/github/v/release/open-dingtalk/dingtalk-stream-sdk-go">
   </a>
 </p>

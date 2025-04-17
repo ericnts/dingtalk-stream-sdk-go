@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/open-dingtalk/dingtalk-stream-sdk-go/card"
+	"github.com/ericnts/dingtalk-stream-sdk-go/card"
 	"io"
 	"net/http"
 	"net/url"
@@ -15,12 +15,12 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/open-dingtalk/dingtalk-stream-sdk-go/chatbot"
-	"github.com/open-dingtalk/dingtalk-stream-sdk-go/handler"
-	"github.com/open-dingtalk/dingtalk-stream-sdk-go/logger"
-	"github.com/open-dingtalk/dingtalk-stream-sdk-go/payload"
-	"github.com/open-dingtalk/dingtalk-stream-sdk-go/plugin"
-	"github.com/open-dingtalk/dingtalk-stream-sdk-go/utils"
+	"github.com/ericnts/dingtalk-stream-sdk-go/chatbot"
+	"github.com/ericnts/dingtalk-stream-sdk-go/handler"
+	"github.com/ericnts/dingtalk-stream-sdk-go/logger"
+	"github.com/ericnts/dingtalk-stream-sdk-go/payload"
+	"github.com/ericnts/dingtalk-stream-sdk-go/plugin"
+	"github.com/ericnts/dingtalk-stream-sdk-go/utils"
 )
 
 /**
