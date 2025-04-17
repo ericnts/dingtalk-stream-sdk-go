@@ -32,9 +32,9 @@ type CardRequest struct {
 }
 
 type CardResponse struct {
-	CardUpdateOptions *CardUpdateOptions `json:"cardUpdateOptions"`
-	CardData          *CardDataDto       `json:"cardData"`
-	UserPrivateData   *CardDataDto       `json:"userPrivateData"`
+	CardUpdateOptions *CardUpdateOptions      `json:"cardUpdateOptions"`
+	CardData          *CardDataDto            `json:"cardData"`
+	UserPrivateData   *map[string]CardDataDto `json:"userPrivateData"`
 }
 
 func (r *CardRequest) GetActionString(name string) string {
